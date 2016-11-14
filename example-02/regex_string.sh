@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Usage: $0 <some_text.txt
+# Usage: $0 some_text.txt
 filename="$1"
 regex="atat\snon$"
 
