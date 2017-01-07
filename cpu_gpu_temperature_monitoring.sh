@@ -13,19 +13,19 @@ PREV_CPU1=0
 CURRENT_CPU1=0
 
 function counter_log {
-	echo "$1" > /home/thetekst/wd320win/linux_temperature_monitoring/counter
+	echo "$1" > /home/$USER/wd320win/linux_temperature_monitoring/counter
 }
 
 function gpu_log {
-	echo "$1" > /home/thetekst/wd320win/linux_temperature_monitoring/gpu
+	echo "$1" > /home/$USER/wd320win/linux_temperature_monitoring/gpu
 }
 
 function cpu0_log {
-	echo "$1" > /home/thetekst/wd320win/linux_temperature_monitoring/cpu0
+	echo "$1" > /home/$USER/wd320win/linux_temperature_monitoring/cpu0
 }
 
 function cpu1_log {
-	echo "$1" > /home/thetekst/wd320win/linux_temperature_monitoring/cpu1
+	echo "$1" > /home/$USER/wd320win/linux_temperature_monitoring/cpu1
 }
 
 function get_gpu {
